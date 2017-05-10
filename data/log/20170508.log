@@ -1,0 +1,6 @@
+[2017-05-08 14:46:05] /shopping/admin/modules/mobile/index.php?app=mb_category ( app=mb_category&feiwa=index ) 
+ERR: Db Error: Table 'shopping.feiwa_mb_category' doesn't exist
+SELECT * FROM `feiwa_mb_category` as `mb_category`   order by gc_id
+[2017-05-08 14:46:09] /shopping/admin/modules/mobile/index.php?app=mb_category ( app=mb_category&feiwa=index ) 
+ERR: Db Error: Table 'shopping.feiwa_mb_category' doesn't exist
+SELECT * FROM `feiwa_mb_category` as `mb_category`   order by gc_id
