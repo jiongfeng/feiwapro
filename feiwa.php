@@ -92,7 +92,7 @@ define('TPL_CIRCLE_NAME', 'default');
 define('TPL_SHARESHOW_NAME', 'default');
 define('TPL_READS_NAME', 'default');
 define('TPL_CB_NAME', 'default');
-define('TPL_ADMIN_NAME', 'default');
+define('TPL_ADMIN_NAME', 'gds');
 define('TPL_DELIVERY_NAME', 'default');
 define('TPL_CHAIN_NAME', 'default');
 define('TPL_MEMBER_NAME', 'default');
