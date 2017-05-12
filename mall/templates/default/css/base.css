@@ -402,8 +402,8 @@ a:hover.btn-darkgray,a:hover.ncbtn-darkgray{background-color:#434A54}
 .ensureBox ul li a .i_ensure03{ background-position:-254px -478px;}
 .ensureBox ul li a .i_ensure04{ background-position:-346px -478px;}
 /***footer二维码***/
-.ft_app,.ft_weixin{ float:left;width: 153px;/* border:1px solid #eee; */}
-.ft_weixin{ /* margin-right: 9px; */}
+.ft_app,.ft_weixin{float:left;width: 153px;/* border:1px solid #eee; */margin-left: 32px;}
+.ft_weixin{/* margin-right: 9px; */margin-left: -3px;}
 .ft_app .erweima,.ft_weixin .erweima{width: 84px;height: 84px;margin: 0px auto;}
 .ft_weixin .erweima img,.ft_app .erweima img{ width: 80px;height: 80px;}
 .ft_app p,.ft_weixin p{ text-align:center; font-size:12px; color:#666; line-height:25px; /* border-top:1px solid #eee; */}
