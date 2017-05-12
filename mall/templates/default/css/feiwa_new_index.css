@@ -4,8 +4,8 @@ body{background-color: #eee;}
 .banner{width:100%; height:655px; position:relative; z-index:2; font-family:"Microsoft Yahei";}
 .bannerImg{ width:100%; height:451px; overflow:hidden; position:relative; z-index: 0; }
 .bannerImg li{ position:absolute; left:0; top:0; height:451px; width:100%; overflow:hidden; display:none}
-.bannerImg li img{ -moz-user-select:none; position:absolute; width:100%; height:451px; /*   left:50%; margin-left:-409px; */ top:0;transition:all 0s linear 0s; transform:scale(1.1);}
-.bannerImg li img.now{transform:scale(1.01)}
+.bannerImg li img{-moz-user-select:none;position:absolute;width:100%;height:451px;/*   left:50%; margin-left:-409px; */top:0;/* transition:all 0s linear 0s;transform:scale(1.1); */}
+.bannerImg li img.now{/* transform:scale(1.01) */}
 .bannerImg li a.r-img{ display: block; position: absolute;left:50%; margin-left:290px; width: 200px;  height: 208px;  background-color: rgba(255,255,255,.7);  -webkit-transition: background-color .4s;  -ms-transition: background-color .4s;  -o-transition: background-color .4s; -moz-transition: background-color .4s; transition: background-color .4s;z-index:999 ;}
 .bannerImg li a.r-img:hover{background:#fff ;}
 .bannerImg li a.r-img img{ width: 200px;  height: 208px;left: 0;
@@ -20,10 +20,10 @@ body{background-color: #eee;}
 .feiwa-prev:hover{ background-position:-182px -1187px}
 .feiwa-next:hover{ background-position:-252px -1187px;}
 
-.tabIcon{ position:absolute; left:48%; top:420px; padding:7px 10px;background: rgba(255,255,255,.3);
+.tabIcon{ position:absolute; left:43%; top:420px; /* padding:0px 4px; *//* background: rgba(255,255,255,.3); */
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#4dffffff', endColorstr='#4dffffff');border-radius:12px}
-.tabIcon span{ display:block; float:left; width:10px; height:10px; border-radius:50%; background-position:-2px -1388px; margin-left:4px; cursor:pointer}
-.tabIcon .now{ background-position:-24px -1388px}
+.tabIcon span{display:block;float:left;width: 80px;height:10px;/* border-radius:50%; */background-position: -2px -1388px;margin-left:10px;cursor:pointer;}
+.tabIcon .now{background-position: -96px -1388px;}
 /*专题*/
 .topics{ width:1216px; padding-bottom:10px; padding-bottom:64px;}
 .boxItem8{ display:block; border:1px solid #efefef; margin-right:9px; padding:14px; float:left; margin-top:2px; cursor:pointer}
