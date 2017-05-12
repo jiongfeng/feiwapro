@@ -76,4 +76,15 @@
     'nav_sort' => '255',
     'item_id' => '0',
   ),
+  7 => 
+  array (
+    'nav_id' => '14',
+    'nav_type' => '0',
+    'nav_title' => '关注我们',
+    'nav_url' => 'http://',
+    'nav_location' => '2',
+    'nav_new_open' => '1',
+    'nav_sort' => '255',
+    'item_id' => '0',
+  ),
 );

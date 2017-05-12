@@ -142,7 +142,7 @@ $article_list=array (
     'ac_code' => 'payment',
     'ac_name' => '支付方式',
     'ac_parent_id' => '0',
-    'ac_sort' => '4',
+    'ac_sort' => '3',
     'list' => 
     array (
       0 => 
@@ -217,7 +217,7 @@ $article_list=array (
     'ac_code' => 'sold',
     'ac_name' => '售后服务',
     'ac_parent_id' => '0',
-    'ac_sort' => '5',
+    'ac_sort' => '4',
     'list' => 
     array (
       0 => 
@@ -292,7 +292,7 @@ $article_list=array (
     'ac_code' => 'service',
     'ac_name' => '购物指南',
     'ac_parent_id' => '0',
-    'ac_sort' => '6',
+    'ac_sort' => '5',
     'list' => 
     array (
       0 => 
@@ -355,7 +355,7 @@ $article_list=array (
     'ac_code' => 'about',
     'ac_name' => '关于我们',
     'ac_parent_id' => '0',
-    'ac_sort' => '7',
+    'ac_sort' => '6',
     'list' => 
     array (
       0 => 

@@ -9,7 +9,4 @@
   'adv_num' => '1',
   'click_num' => '0',
   'default_content' => '05070762113432516.jpg',
-  'adv_list' => 
-  array (
-  ),
 );

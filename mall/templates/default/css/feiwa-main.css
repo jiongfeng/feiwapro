@@ -314,7 +314,7 @@
 .sales .sale-price{ color:#ff5370;}
 
 /*热销排行*/
-.pink{ color: #ff6980}
+.pink{ color: #a51a74;}
 .rank{ width:221px; position:absolute; right:0; top:0; padding:0 14px; border:1px solid #efefef; height:468px;}
 .rank-tit{ line-height:43px; font-size:14px; border-bottom:1px solid #efefef;}
 .rank-item{ display:block; height:60px; padding:14px 12px 0; margin-bottom:8px;}

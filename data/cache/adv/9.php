@@ -15,8 +15,8 @@
     array (
       'adv_id' => '15',
       'ap_id' => '9',
-      'adv_title' => '闪购特卖！狂喜',
-      'adv_content' => 'a:2:{s:7:"adv_pic";s:21:"05473053771603021.jpg";s:11:"adv_pic_url";s:0:"";}',
+      'adv_title' => '满就送',
+      'adv_content' => 'a:2:{s:7:"adv_pic";s:21:"05477378073773343.png";s:11:"adv_pic_url";s:0:"";}',
       'adv_start_date' => '1388505600',
       'adv_end_date' => '1577721600',
       'slide_sort' => '0',

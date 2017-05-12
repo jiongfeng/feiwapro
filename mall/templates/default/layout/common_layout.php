@@ -292,11 +292,11 @@ $(function(){
                      <a href="<?php echo urlMall('special', 'special_detail',array('special_id'=>'1'));?>">运营保障</a>
                 </div>
             </div>
-            <a href="<?php echo urlMall('consult', 'index');?>" <?php if($output['index_sign'] == 'consult' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>商家应答</a>
-            <a href="<?php echo urlMall('search', 'index');?>" <?php if($output['index_sign'] == 'search' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>淘产品</a>
-            <a href="<?php echo urlMall('store_list', 'index');?>" <?php if($output['index_sign'] == 'store_list' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>淘店铺</a>
+            <!-- <a href="<?php echo urlMall('consult', 'index');?>" <?php if($output['index_sign'] == 'consult' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>商家应答</a> -->
+            <a href="<?php echo urlMall('search', 'index');?>" <?php if($output['index_sign'] == 'search' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>产品</a>
+            <a href="<?php echo urlMall('store_list', 'index');?>" <?php if($output['index_sign'] == 'store_list' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>店铺</a>
                         <?php if (C('reads_isuse')){ ?>
-            <a href="<?php echo READS_SITE_URL;?>" <?php if($output['index_sign'] == 'reads' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>淘资讯</a><?php } ?>
+            <a href="<?php echo READS_SITE_URL;?>" <?php if($output['index_sign'] == 'reads' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>资讯</a><?php } ?>
             	<?php if (C('circle_isuse')){ ?>
             <a href="<?php echo CIRCLE_SITE_URL;?>" <?php if($output['index_sign'] == 'circle' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>淘友圈</a><?php } ?>
             	 <?php if (C('shareshow_isuse')){ ?>
