@@ -354,7 +354,7 @@ a:hover.btn-darkgray,a:hover.ncbtn-darkgray{background-color:#434A54}
 .ps-container .ps-scrollbar-x:hover,.ps-container .ps-scrollbar-y:hover{opacity:.9;filter:alpha(opacity=90);cursor:default}
 .ps-container .ps-scrollbar-x.in-scrolling,.ps-container .ps-scrollbar-y.in-scrolling{opacity:.9;filter:alpha(opacity=90)}
 
-.ensureBox{ border-bottom:1px solid #eee; overflow:hidden; zoom:1; width:1190px; margin:0 auto 20px;}
+.ensureBox{ /* border-bottom:1px solid #eee;  */overflow:hidden; zoom:1; width:1190px; margin:0 auto 20px;}
 .ensureBox ul{ width:1240px; padding:16px 0 50px;}
 .ensureBox ul li{ float:left; width:290px;font-size:16px; text-align:left; overflow:hidden; zoom:1; padding:10px 0 0 20px;}
 .ensureBox ul li a{ display:block; position:relative; color:#999;padding:6px 0 6px 70px;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;float:left;cursor:default;}
@@ -365,13 +365,13 @@ a:hover.btn-darkgray,a:hover.ncbtn-darkgray{background-color:#434A54}
 .ensureBox ul li a .i_ensure03{ background-position:-254px -478px;}
 .ensureBox ul li a .i_ensure04{ background-position:-346px -478px;}
 
-.feiwa-footer { overflow: hidden; zoom: 1; border-top: 1px solid #eee; background-color: #fff; padding-top: 18px; text-align: center; margin-top: 20px; }
+.feiwa-footer { overflow: hidden; zoom: 1; border-top: 1px solid #eee; background-color: #fff; /* padding-top: 18px; */ text-align: center; margin-top: 20px; }
 .feiwa-footer .foot_navi { width: 1190px; margin: 0 auto; text-align: left; padding: 15px 0; overflow: hidden; zoom: 1; border-bottom: 1px solid #eee; position: relative; min-height: 134px; }
 .feiwa-footer .foot_navi .footLeft { float: left; width: 100px; padding-left: 290px; }
 .feiwa-footer .foot_navi .footLeft .erweima { width: 98px; height: 98px; margin: 0 auto; border: 1px solid #ccc; }
 .feiwa-footer .foot_navi .footLeft p { font-size: 12px; color: #666; text-align: center; padding-top: 8px; }
-.feiwa-footer .foot_navi .footRight { float:left; padding-top: 6px; width:850px; }
-.feiwa-footer .foot_navi dl { line-height: 1.5; width: 150px; float: left; font-size: 13px; padding-left: 20px; }
+.feiwa-footer .foot_navi .footRight { float:left; padding-top: 6px; width: 670px; }
+.feiwa-footer .foot_navi dl { line-height: 1.5; width: 100px; float: left; font-size: 13px; padding-left: 34px; }
 .feiwa-footer .foot_navi .lastdl { width: 100px; }
 .feiwa-footer .foot_navi dl dt { font-size: 16px; color: #333; margin-bottom: 10px; font-weight: normal; }
 .feiwa-footer .foot_navi dl dd { margin-bottom: 10px; }
@@ -391,9 +391,9 @@ a:hover.btn-darkgray,a:hover.ncbtn-darkgray{background-color:#434A54}
 .logFooter { text-align: center; padding: 20px 0; color: #999999; font-size: 12px; line-height: 22px; }
 .logFooter p { text-align: center; }
 .logFooter a { color: #999999; font-size: 12px; line-height: 22px; }
-.ensureBox{ border-bottom:1px solid #eee; overflow:hidden; zoom:1; width:1190px; margin:0 auto 20px;}
-.ensureBox ul{ width:1240px; padding:16px 0 50px;}
-.ensureBox ul li{ float:left; width:290px;font-size:16px; text-align:left; overflow:hidden; zoom:1; padding:10px 0 0 20px;}
+.ensureBox{ /* border-bottom:1px solid #eee; */ overflow:hidden; zoom:1; width: 100%; margin:0 auto 20px;background-color: #ffe8f7;}
+.ensureBox ul{ width:1240px; padding: 22px 33px;margin-left: 73px;}
+.ensureBox ul li{ float:left; width: 270px;font-size:16px; text-align:left; overflow:hidden; zoom:1; padding: 10px 0 0 29px;}
 .ensureBox ul li a{ display:block; position:relative; color:#999;padding:6px 0 6px 70px;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;float:left;cursor:default;}
 .ensureBox ul li a span{ display:block; color:#333; font-weight:bold; margin-bottom:3px;}
 .ensureBox ul li a:hover{ text-decoration:none; /*margin-top:-4px;*/}
@@ -402,11 +402,11 @@ a:hover.btn-darkgray,a:hover.ncbtn-darkgray{background-color:#434A54}
 .ensureBox ul li a .i_ensure03{ background-position:-254px -478px;}
 .ensureBox ul li a .i_ensure04{ background-position:-346px -478px;}
 /***footer二维码***/
-.ft_app,.ft_weixin{ float:left;width:132px;border:1px solid #eee;}
-.ft_weixin{ margin-right:50px;}
-.ft_app .erweima,.ft_weixin .erweima{width:110px;height:110px;margin:10px auto;}
-.ft_weixin .erweima img,.ft_app .erweima img{ width:110px;height:110px;}
-.ft_app p,.ft_weixin p{ text-align:center; font-size:12px; color:#666; line-height:25px; border-top:1px solid #eee;}
+.ft_app,.ft_weixin{ float:left;width: 153px;/* border:1px solid #eee; */}
+.ft_weixin{ /* margin-right: 9px; */}
+.ft_app .erweima,.ft_weixin .erweima{width: 84px;height: 84px;margin: 0px auto;}
+.ft_weixin .erweima img,.ft_app .erweima img{ width: 80px;height: 80px;}
+.ft_app p,.ft_weixin p{ text-align:center; font-size:12px; color:#666; line-height:25px; /* border-top:1px solid #eee; */}
 /**页面底部加安全联盟logo**/
 .bt_securityAlliance{width:938px; margin:0 auto 8px;}
 .bt_securityAlliance li{ float:left; padding:0 5px; width:124px;}

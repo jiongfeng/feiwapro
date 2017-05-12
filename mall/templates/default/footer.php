@@ -48,6 +48,14 @@ fade();
 
 
   </div> 
+  
+  <div style="width: 450px;height: 50px;float: left;margin-bottom: 19px; ">
+       <dl style="width: 450px;margin-top: 5px;">
+           <dt>关注我们</dt>
+           <dd>联系客服：0851-84603146</dd>
+       </dl>
+  </div>
+
   <div class="ft_weixin"> 
    <div class="erweima"><img src="<?php echo UPLOAD_SITE_URL.DS.ATTACH_COMMON.DS.C('mobile_app');?>"></div> 
    <p>贵电商养生馆淘宝店</p> 
@@ -57,7 +65,7 @@ fade();
    <p>www.guidianshang.com.cn</p> 
   </div> 
   <div class="ft_app"> 
-   <div class="erweima"><img src="<?php echo UPLOAD_SITE_URL.DS.ATTACH_MOBILE.DS.C('mobile_gz');?>gzh.png"></div> 
+   <div class="erweima"><img src="<?php echo UPLOAD_SITE_URL.DS.ATTACH_MOBILE.DS.C('mobile_gz');?>gzh.jpg"></div> 
    <p>贵电商服务公众号</p> 
   </div>
  </div> <?php }?>
@@ -81,11 +89,11 @@ fade();
 			case '2':echo urlMember('article', 'article',array('ac_id'=>$nav['item_id']));break; 
 			case '3':echo urlMall('activity', 'index',array('activity_id'=>$nav['item_id']));break;}?>">
 			<?php echo $nav['nav_title'];?></a><?php }}}?>|
-			<a href="<?php echo urlmall('link');?>">友情链接</a>|<a href="http://www.feiwa.org">FeiWa</a></p>
+			<a href="<?php echo urlmall('link');?>">友情链接</a>|<a href="#">贵电商</a></p>
 
    <div class="copy_right">
      ©2016 feiwa.org 
-    <a href="http://www.feiwa.org/" style="color:#0fcfe1;">FeiWa</a> <?php echo $output['setting_config']['icp_number']; ?>  客户服务中心(7×24):0539-8889333<br />
+    <a href="http://www.feiwa.org/" style="color:#0fcfe1;">FeiWa</a> <?php echo $output['setting_config']['icp_number']; ?>  客户服务中心(7×24):0539-84603146<br />
 <?php echo $output['setting_config']['feiwa_version'];?>-<?php echo feiwa_by_version;?>
    </div> 
   </div> 

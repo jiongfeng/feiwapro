@@ -1,8 +1,5 @@
 @charset "utf-8";.wrapper{width:1200px;margin:auto;font-family:"Microsoft Yahei"}
 
-:root {
-  --1: #a51a74;//导航及搜索框颜色
-}
 .header-wrap{background-color:#fff;width:100%;background-position:top center;background-repeat:no-repeat}
 .public-head-layout{height:100px}
 .public-head-layout .site-logo{position: relative; z-index: 100;}
@@ -20,13 +17,13 @@
 .cityCont .cityItem a{ float:left; margin-right:39px; margin-bottom:11px; font-size:13px; text-align:center; height:19px;}
 .cityCont .cityItem span{ display:inline-block; line-height:18px; padding:0 5px; color:#666 }
 .cityCont .cityItem .now span,.cityCont .cityItem .now:hover span{ background:#ff516e; color:#fff; border-radius:3px;}
-.cityCont .cityItem a:hover span{ color:var(--1);}
+.cityCont .cityItem a:hover span{ color:#a51a74;}
 .public-head-layout .site-logo img{max-width:234px;max-height:120px}
 .public-head-layout .logo-test{float:left;margin:15px 55px 0 35px;padding:0 15px;color:#f55;font-weight:700;line-height:70px}
 .public-head-layout .logo-test{font-family:"microsoft yahei";font-size:16px}
 .head-search-layout{width:440px;float:left;margin:25px 0 0 50px}
 .head-search-bar{width:100%;height:40px;display:block;position:relative;z-index:100}
-.head-search-bar .search-form{background-color:var(--1);height:36px;padding:2px}
+.head-search-bar .search-form{background-color:#a51a74;height:36px;padding:2px}
 .head-search-bar .input-text{line-height:24px;color:#555;width:66%;height:24px;float:left;padding:6px 1% 6px 75px;border:none 0}
 .head-search-bar .input-submit,.head-search-bar .input-submit:hover{font-size:14px;color:#FFF;font-weight:600;background-color:transparent;width:15%;height:40px;float:right;border:none;cursor:pointer}
 .head-search-bar .search-tip{font-size:0;word-spacing:-1em;background-color:#FFF;display:none;min-height:100px;padding-bottom:10px;border:solid 1px #D7D7D7;position:absolute;z-index:1;top:40px;left:0;right:72px}
@@ -36,6 +33,7 @@
 .head-search-bar .search-tip .title{color:#999;line-height:20px;padding:5px 19px}
 .head-search-bar .search-tip .title a{float:right}
 .head-search-bar .search-history ul{display:block}
+
 .head-search-bar .search-history ul li{color:#333;line-height:30px;display:block;height:30px;padding:0 19px;cursor:pointer}
 .head-search-bar .search-history ul li:hover{background-color:#FAFAFA}
 .head-search-bar .search-hot ul{font-size:0}
@@ -124,26 +122,26 @@
 .head-user-menu dl div.addcart-goods-num{font:700 11px/14px Verdana;color:#FFF;background:red;text-align:center;display:inline-block;height:16px;min-width:16px;max-width:auto!important;border:none 0;border-radius:8px;position:absolute;z-index:3;top:-4px;left:20px}
 #t-sp{position:relative;display:none}
 #t-sp .close{position:absolute;right:8px;top:5px;background:url(../images/close.gif) no-repeat;width:35px;height:12px;display:block}
-.public-nav-layout{width:100%;height:44px;background:#fff;border-bottom:solid 2px var(--1);margin:0 auto;position:relative;z-index:99;zoom:1}
+.public-nav-layout{width:100%;height:44px;background:#fff;border-bottom:solid 2px #a51a74;margin:0 auto;position:relative;z-index:99;zoom:1}
 .public-nav-layout .navCont{ padding-left:200px; height: 40px; }
 .public-nav-layout .navCont a{ float:left;  line-height:41px; margin-right:45px; *margin-right: 23px; color:#666; font-size:16px; position: relative }
 .taoBtnList>a{ padding-left: 0}
 .public-nav-layout .now:hover,.public-nav-layout .now{ color:#7c2466 !important;}
-.public-nav-layout .navCont a:hover{ color:var(--1); text-decoration:none}
-.public-nav-layout .hoverLine{ position:absolute; left:232px; bottom:0; background:var(--1); display:none; height:2px; width:45px;}
+.public-nav-layout .navCont a:hover{ color:#a51a74; text-decoration:none}
+.public-nav-layout .hoverLine{ position:absolute; left:232px; bottom:0; background:#a51a74; display:none; height:2px; width:45px;}
 .taoBtnList{ float:left; padding:0; position:relative; margin-left:-4px; }
 .taoBtnList div a{ width:71px; position: relative}
 .taoBtnList div a{ display:block; float:none; margin:0; padding:0; font-size:14px !important; line-height:34px;padding:0 19px 0 21px;}
-.taoBtnList div a:hover{ background:var(--1); color:#fff !important;}
+.taoBtnList div a:hover{ background:#a51a74; color:#fff !important;}
 .taoBtnList .taoListHv{ padding-right:18px;  background:url(../images/common-head.png?ver=3) no-repeat 0 -1064px; font-size:16px; line-height:41px;}
 .taoBtnList>.taoListHv{ background-position:-21px -1064px; position: relative;}
-.taoBtnList:after{ content: ''; background:url(../images/common-head.png?ver=3) no-repeat 0 -1396px; font-size: 0; position: absolute; right: 42px; top: -11px; color: #fff; width: 46px; height: 24px; overflow: hidden; z-index: 10}
-.taoBtnList div>.taoListHv:after{ content: ''; background:url(../images/common-head.png?ver=3) no-repeat 0 -1396px; font-size: 0; position: absolute; right: 20px; top: -11px; color: #fff; width: 46px; height: 24px; overflow: hidden; z-index: 10}
+.taoBtnList:after{ content: ''; /* background:url(../images/common-head.png?ver=3) no-repeat 0 -1396px; */ font-size: 0; position: absolute; right: 42px; top: -11px; color: #fff; width: 46px; height: 24px; overflow: hidden; z-index: 10}
+.taoBtnList div>.taoListHv:after{ content: ''; /* background:url(../images/common-head.png?ver=3) no-repeat 0 -1396px;  */font-size: 0; position: absolute; right: 20px; top: -11px; color: #fff; width: 46px; height: 24px; overflow: hidden; z-index: 10}
 .newHead1000 .taoBtnList div>.taoListHv:after{ right: 20px}
 .taoBtnList:hover div{ display:block}
-.taoBtnList .theNew{ position: absolute; right: 8px; top: 10px; display: block; width: 22px; height: 8px; background: url("../images/common-head.png?v=115") no-repeat 0 -1174px; line-height: 39px; overflow: hidden; }
+.taoBtnList .theNew{ position: absolute; right: 8px; top: 10px; display: block; width: 22px; height: 8px; /* background: url("../images/common-head.png?v=115") no-repeat 0 -1174px; */ line-height: 39px; overflow: hidden; }
 .taoBtnList div a:hover .theNew{ background-position: 0 -1192px; }
-.taoBtnList:hover .taoListHv,.taoBtnList .taoListHv.on{ background:url(../images/common-head.png?ver=3) no-repeat 0 -1101px #fff; color:var(--1) !important; font-size:16px   !important;}
+.taoBtnList:hover .taoListHv,.taoBtnList .taoListHv.on{ background:url(../images/common-head.png?ver=3) no-repeat 0 -1101px #fff; color:#a51a74 !important; font-size:16px   !important;}
 .taoBtnList div{ border:1px solid #dadada; position:absolute; left:-22px; top:-1px; background:#fff; display:none; padding-bottom:10px; box-shadow:0px 1px  2px 1px #e0e0e0; width:111px; border-radius:4px;z-index: 1}
 .public-nav-layout .div{margin:0;padding:0}
 .public-nav-layout .site-menu li.navitems-on{position:relative;background:url(../images/hot.gif) no-repeat right 1px}
@@ -159,7 +157,7 @@
 .public-nav-layout .site-menu li .links_b{display:none;width:118px;border-top:solid 1px #f55!important;border:solid 1px #F0F0F0;position:absolute;z-index:1000;background-color:#fff;font-size:14px}
 .public-nav-layout .site-menu li.hover .links_b{display:block}
 .public-nav-layout .site-menu li .links_b li{display:list-item;text-align:-webkit-match-parent}
-.public-nav-layout .all-category{display:block;width:180px;height:41px;float:left;margin-top:5px;background:var(--1);}
+.public-nav-layout .all-category{display:block;width:180px;height:41px;float:left;margin-top:5px;background:#a51a74;}
 .public-nav-layout .all-category .title{line-height:25px;height:25px;padding:8px 10px 8px 10px}
 .public-nav-layout .all-category .title h3 a{font-size:16px;font-weight:700;float:left;margin-left:20px;color:#fff}
 .public-nav-layout .all-category .title i{font-size:0;line-height:0;background:url(../images/top_bg.png) no-repeat -182px -186px;width:18px;height:14px;float:left;margin:4px 4px 0 0}
@@ -177,7 +175,7 @@
 .public-nav-layout .category .menu li:last-child{height:32px}
 .public-nav-layout .category .class{display:block;width:150px;height:16px; margin:0 15px; padding:8px 0;position:absolute;z-index:1;top:0;left:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s; border-bottom:1px solid  rgba(255,255,255,.05);}
 .public-nav-layout .category .hover .class{width:138px;margin:0;z-index:2;
-background: #a51a74;border-left:3px solid var(--1) ;padding:8px 16px 8px 23px ;}
+background: #a51a74;border-left:3px solid #a51a74 ;padding:8px 16px 8px 23px ;}
 .public-nav-layout .category .class .ico{vertical-align:top;display:inline-block;width:16px;height:16px;margin-right:10px}
 .public-nav-layout .category .class .ico img{display:block;width:16px;height:16px}
 .public-nav-layout .category .class h4{vertical-align:top;display:inline-block}
@@ -188,7 +186,7 @@ background: #a51a74;border-left:3px solid var(--1) ;padding:8px 16px 8px 23px ;}
 .public-nav-layout .category li.hover .sub-class{display:block}
 .public-nav-layout .category .sub-class-content{display:block;width:730px;float:left}
 .public-nav-layout .category .recommend-class{font-size:0;word-spacing:-1em;display:block;overflow:hidden}
-.public-nav-layout .category .recommend-class span{font-size:12px;background-color:var(--1);vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;margin:0 10px 10px 0}
+.public-nav-layout .category .recommend-class span{font-size:12px;background-color:#a51a74;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block;margin:0 10px 10px 0}
 .public-nav-layout .category .recommend-class span a{color:#FFF;line-height:20px;display:block;padding:2px 10px}
 .public-nav-layout .category .sub-class dl{font-size:0;word-spacing:-1em;padding-top:10px}
 .public-nav-layout .category .sub-class dl dd,.public-nav-layout .category .sub-class dl dt{font-size:12px;vertical-align:top;letter-spacing:normal;word-spacing:normal;display:inline-block}
