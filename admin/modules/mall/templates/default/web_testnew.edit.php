@@ -14,8 +14,8 @@ var UPLOAD_SITE_URL = "<?php echo UPLOAD_SITE_URL; ?>";
       <ul class="tab-base nc-row">
         <li><a href="index.php?app=web_config&feiwa=web_config"><?php echo '板块区';?></a></li>
         <li><a href="index.php?app=web_config&feiwa=focus_edit"><?php echo '焦点区';?></a></li>
-        <li><a href="JavaScript:void(0);" class="current"><?php echo '促销区';?></a></li>
-        <li><a href="index.php?app=web_config&feiwa=testnew_edit"><?php echo '尝鲜区';?></a></li>
+        <li><a href="index.php?app=web_config&feiwa=sale_edit"><?php echo '促销区';?></a></li>
+        <li><a href="JavaScript:void(0);" class="current"><?php echo '尝鲜区';?></a></li>
       </ul>
     </div>
   </div>
@@ -34,6 +34,7 @@ var UPLOAD_SITE_URL = "<?php echo UPLOAD_SITE_URL; ?>";
     <div class="ncap-form-default">
       <dl class="row">
         <dt class="tit">促销区布局块预览</dt>
+        <!--促销区布局块预览-->    
         <dd class="opt sale-layout">
           <?php if (is_array($output['code_sale_list']['code_info']) && !empty($output['code_sale_list']['code_info'])) { ?>
           <?php foreach ($output['code_sale_list']['code_info'] as $key => $val) { ?>

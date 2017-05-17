@@ -115,6 +115,9 @@ class web_configModel extends Model{
                 case 'index_pic':
                     $style_file = BASE_DATA_PATH.DS.'resource'.DS.'web_config'.DS.'focus.php';
                     break;
+                case 'index_test':
+                    $style_file = BASE_DATA_PATH.DS.'resource'.DS.'web_config'.DS.'sale_goods.php';
+                    break;    
                 case 'index_sale':
                     $style_file = BASE_DATA_PATH.DS.'resource'.DS.'web_config'.DS.'sale_goods.php';
                     break;

@@ -11,6 +11,7 @@
         <li><a href="JavaScript:void(0);" class="current"><?php echo '板块区';?></a></li>
         <li><a href="index.php?app=web_config&feiwa=focus_edit"><?php echo '焦点区';?></a></li>
         <li><a href="index.php?app=web_config&feiwa=sale_edit"><?php echo '促销区';?></a></li>
+        <li><a href="index.php?app=web_config&feiwa=testnew_edit"><?php echo '尝鲜区';?></a></li>
       </ul>
     </div>
   </div>

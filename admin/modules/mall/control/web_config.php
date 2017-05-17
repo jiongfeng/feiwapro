@@ -178,7 +178,30 @@ class web_configControl extends SystemControl{
 		Tpl::setDirquna('mall');/*www.feiwa.org*/
         Tpl::showpage('web_sale.edit');
     }
+/**
+     * 头部尝鲜区
+     */
+    public function testnew_editFeiWa() {
+        $model_web_config = Model('web_config');
+        $web_id = '122';
+        $code_list = $model_web_config->getCodeList(array('web_id'=> $web_id));
+            
 
+        if(is_array($code_list) && !empty($code_list)) {
+        $model_class = Model('goods_class');
+        $goods_class = $model_class->getTreeClassList(1);//第一级商品分类
+        Tpl::output('goods_class',$goods_class);
+            foreach ($code_list as $key => $val) {//将变量输出到页面
+                $var_name = $val['var_name'];
+                $code_info = $val['code_info'];
+                $code_type = $val['code_type'];
+                $val['code_info'] = $model_web_config->get_array($code_info,$code_type);
+                Tpl::output('code_'.$var_name,$val);
+            }
+        }
+		Tpl::setDirquna('mall');/*www.feiwa.org*/
+        Tpl::showpage('web_testnew.edit');
+    }
     /**
      * 商品分类
      */
