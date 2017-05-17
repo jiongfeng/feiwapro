@@ -36,14 +36,25 @@
 
 
   </div> 
+   <div style="width: 450px;height: 50px;float: left;margin-bottom: 19px; ">
+       <dl style="width: 450px;margin-top: 5px;">
+           <dt>关注我们</dt>
+           <dd>联系客服：0851-84603146</dd>
+       </dl>
+  </div>
+
   <div class="ft_weixin"> 
    <div class="erweima"><img src="<?php echo UPLOAD_SITE_URL.DS.ATTACH_COMMON.DS.C('mobile_app');?>"></div> 
-   <p>下载FeiWaAPP</p> 
+   <p>贵电商养生馆淘宝店</p> 
   </div> 
   <div class="ft_app"> 
    <div class="erweima"><img src="<?php echo UPLOAD_SITE_URL.DS.ATTACH_MOBILE.DS.C('mobile_wx');?>"></div> 
-   <p>FeiWa官方微信</p> 
+   <p>www.guidianshang.com.cn</p> 
   </div> 
+  <div class="ft_app"> 
+   <div class="erweima"><img src="<?php echo UPLOAD_SITE_URL.DS.ATTACH_MOBILE.DS.C('mobile_gz');?>gzh.jpg"></div> 
+   <p>贵电商服务公众号</p> 
+  </div>
  </div> <?php }?>
  <div class="gray_box"> 
   <ul class="bt_securityAlliance clearfix"> 

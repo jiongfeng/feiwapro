@@ -92,7 +92,25 @@
 
 <!--今日主题优惠end-->
 
+<!--新品尝鲜-->
+<div class="sales-events wrapper">
+	<div class="lf lfnew"><?php echo $output['web_html']['index_test'];?></div>
+	<!-- <div class="rt"><div class="fastZT fastZT1">
+  <div class="hoverTab topbox">
+  <div class="tabCont">
+        <a target="_blank" href="javascript:void(0)" class="now">公告</a>
+        <a target="_blank" href="javascript:void(0)" class="">入驻</a>
+      </div>
+      <div style="display: block;" class="hoverCont "><ul class=" noticeList"> <?php if(!empty($output['show_article']['notice']['list']) && is_array($output['show_article']['notice']['list'])) { ?> <?php foreach($output['show_article']['notice']['list'] as $val) { ?><li><a rel="nofollow" href="<?php echo empty($val['article_url']) ? urlMember('article', 'show',array('article_id'=> $val['article_id'])):$val['article_url'] ;?>" target="_blank">【公告】<?php echo $val['article_title']; ?></a></li><?php }} ?></ul></div>
+      <div style="display: none;" class="hoverCont "><a href="<?php echo urlMall('show_joinin', 'index');?>" title="申请商家入驻；已提交申请，可查看当前审核状态。" class="store-join-btn" target="_blank">&nbsp;</a><a href="<?php echo urlMall('seller_login','show_login');?>" target="_blank" class="store-join-help"><i class="icon-cog"></i>登录商家管理中心</a></div>
+  </div>
+  <div class="topbox2">
+  <ul class="featuresList clearfix">
+  <li><a rel="nofollow" href="<?php echo urlMall('show_joinin', 'index');?>" target="_self"><i class="i_ico01"></i>招商入驻</a></li><li><a rel="nofollow" href="<?php echo urlMall('seller_login','show_login');?>" target="_self"><i class="i_ico02"></i>商家管理</a></li><li><a rel="nofollow" href="<?php echo urlmall('special','special_detail', array('special_id'=>'1'));?>" target="_self"><i class="i_ico03"></i>消费保障</a></li><li><a rel="nofollow" href="<?php echo urlMall('invite', 'index');?>" target="_self"><i class="i_ico04"></i>推广返利</a></li><li><a rel="nofollow" href="<?php echo DELIVERY_SITE_URL;?>" target="_self"><i class="i_ico05"></i>物流自提</a></li><li><a rel="nofollow" href="<?php echo WAP_SITE_URL;?>" target="_self"><i class="i_ico06"></i>手机专享</a></li></ul></div>
+      </div></div> -->
+</div>
 
+<!--新品尝鲜end-->
 
 <div class="wrapper">
   <div class="mt10">
@@ -104,45 +122,45 @@
 <!--StandardLayout End-->
 </div>
 <!--快捷导航-->
-<div id="nav_box"><ul><div class="m-logo"></div> 
-	    <?php if (is_array($output['lc_list']) && !empty($output['lc_list'])) {$i=0 ?>
+<!-- <div id="nav_box"><ul><div class="m-logo"></div> 
+      <?php if (is_array($output['lc_list']) && !empty($output['lc_list'])) {$i=0 ?>
     <?php foreach($output['lc_list'] as $v) { $i++?>
     <li class="nav_Sd_<?php echo $i;?> <?php if($i==1) echo 'hover'?>"> <a class="word" href="javascript:;"><em class="em"><?php echo $v['value']?></em><?php echo $v['name']?></a></li>
     <?php }} ?>
-	</ul></div>
-<!--快捷导航end-->
+  </ul></div>
+快捷导航end
 
-<!--限时特价随机--> 
+限时特价随机 
 <?php if(!empty($output['xianshi_item']) && is_array($output['xianshi_item'])) { ?>
-	<div class="wrapper partTit"><span><em class="ft31"><a href="<?php echo urlMall('promotion','list');?>" target="_blank"><i class="pink">限时</i>特价 </a></em><i class="eng">ON SALE</i></span></div>
+  <div class="wrapper partTit"><span><em class="ft31"><a href="<?php echo urlMall('promotion','list');?>" target="_blank"><i class="pink">限时</i>特价 </a></em><i class="eng">ON SALE</i></span></div>
 <div class="boxItem1_index wrapper zoom hoverTab">
     <ul style="display:block" class="hoverCont">
-    	<?php foreach($output['xianshi_item'] as $val) { ?>
+      <?php foreach($output['xianshi_item'] as $val) { ?>
                <li><div class="act-img-wrap"><a href="<?php echo urlMall('promotion','index',array('id'=>$val['xianshi_id']));?>" target="_blank"><img  width="688" height="190" src="<?php echo xsthumb($val['xianshi_image1']);?>" class="">
-    								</a>
-    								<div class="countdown-tag">
+                    </a>
+                    <div class="countdown-tag">
                                     <span class="tick-logo"></span>
                                     <p class="infoTit1 time-remain" count_down="<?php echo $val['end_time']-TIMESTAMP;?>"><i></i><em time_id="d">0</em>天<em time_id="h">0</em>时<em time_id="m">0</em>分<em time_id="s">0</em>秒</p>
                                         <span class="arrow-circle"></span>
-									</div>
-                				</div>
-                				<div class="act-detail-wrap">
-                					<div class="inner">
-    									<img width="150" height="35" src="<?php echo xsthumb($val['xianshi_image2']);?>" class="">
-                						<h3><a  href="<?php echo urlMall('promotion','index',array('id'=>$val['xianshi_id']));?>" target="_blank"><?php echo $val['xianshi_explain']; ?></a>
-    									</h3>
-                						<span class="discount">低至<?php echo $val['xianshi_discount']; ?>折</span>
-                					</div>
-                				</div>
-                			</li>
+                  </div>
+                        </div>
+                        <div class="act-detail-wrap">
+                          <div class="inner">
+                      <img width="150" height="35" src="<?php echo xsthumb($val['xianshi_image2']);?>" class="">
+                            <h3><a  href="<?php echo urlMall('promotion','index',array('id'=>$val['xianshi_id']));?>" target="_blank"><?php echo $val['xianshi_explain']; ?></a>
+                      </h3>
+                            <span class="discount">低至<?php echo $val['xianshi_discount']; ?>折</span>
+                          </div>
+                        </div>
+                      </li>
         <?php } ?>
             </ul>
-</div><?php } ?>
+</div><?php } ?> -->
 <!--限时特价随机end-->
-<!--   <div class="wrapper partTit"><span><em class="ft31"><a href="<?php echo urlMall('promotion','list');?>" target="_blank"><i class="pink">晒单</i>促销 </a></em><i class="eng">INORDER TO SHARE SALE</i></span></div>   -->
-<!-- <div class="feiwa-new-tabcron wrapper">
+<!--   <div class="wrapper partTit"><span><em class="ft31"><a href="<?php echo urlMall('promotion','list');?>" target="_blank"><i class="pink">晒单</i>促销 </a></em><i class="eng">INORDER TO SHARE SALE</i></span></div>  
+<div class="feiwa-new-tabcron wrapper"> -->
 
-晒单评价<div class="bcon">
+<!-- 晒单评价<div class="bcon">
     代码开始
     <div class="list_lh">
     <ul class="boxItem2 boxItem2-1 zoom" style="display:block">
@@ -254,19 +272,19 @@ $(function(){
  <?php }}?>
      </div> 
     </div> 
-    <?php }}?> -->
+    <?php }}?>
 
 
     
 
     </div></div></li>
-            		
-            	</ul>
+                
+              </ul>
             </div>
         </div>
 
 </div>
-
+ -->
 <!--品牌及店铺推荐end-->
 
 

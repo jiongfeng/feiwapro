@@ -329,14 +329,14 @@ $(function(){
             <a href="<?php echo MALL_SITE_URL;?>" <?php if($output['index_sign'] == 'index' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>首页</a>
             <div class="taoBtnList">
                 <a href="<?php echo urlMall('promotion', 'list');?>" class="taoListHv">淘特卖</a>
-                <div class="">
+                <!-- <div class="">
                     <a href="<?php echo urlMall('promotion', 'list');?>" class="taoListHv">淘特卖</a>
                     <a href="<?php echo urlMall('promotion', 'list');?>">淘特卖首页</a>
                     <a href="<?php echo urlMall('show_groupbuy','index');?>">限时抢购</a>
                     <a href="<?php echo urlMall('brand', 'index');?>">品牌精品</a>
                     <a href="<?php echo urlMall('special', 'special_list');?>">主题抢购<i class="theNew">new</i></a>
                      <a href="<?php echo urlMall('special', 'special_detail',array('special_id'=>'1'));?>">运营保障</a>
-                </div>
+                </div> -->
             </div>
             <!-- <a href="<?php echo urlMall('consult', 'index');?>" <?php if($output['index_sign'] == 'consult' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>商家应答</a> -->
             <a href="<?php echo urlMall('search', 'index');?>" <?php if($output['index_sign'] == 'search' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>产品</a>
