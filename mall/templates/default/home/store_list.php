@@ -166,6 +166,7 @@ function query(name, value){
 <?php }?>
                      
                             </div>
+                            
             <!--//店铺列表-->
  <!--翻页-->
 <div class="pagination"> <?php echo $output['show_page'];?> </div>
@@ -173,9 +174,9 @@ function query(name, value){
         </div>
 
         <div class="feiwa-right w220">
-            <div class="mb15">
+            <!-- <div class="mb15">
                 <a href="http://www.feiwa.org" target="_blank"><img src="<?php echo MALL_SITE_URL;?>/img/whyYw.jpg" alt="为什么选择FeiWa" class="mb15"></a>
-            </div>
+            </div >-->
             <!--销量排行-->
             <?php if(!empty($output['goods_list']) && is_array($output['goods_list'])){$i=0?>
             <div class="w218 sales feiwa-bs">
@@ -191,14 +192,14 @@ function query(name, value){
         
                             </div><?php }?>
            
-            <div class="for-fix">
+            <!-- <div class="for-fix">
                 <div class="mb15">
                     <a href="http://www.demo.feiwa.org" target="_blank"><img src="<?php echo MALL_SITE_URL;?>/img/taoListApp.jpg" alt="FeiWaS5"></a>
                 </div>
                 <div class="mb15">
                     <a href="http://www.feiwa.org" target="_blank"><img src="<?php echo MALL_SITE_URL;?>/img/pei.jpg" alt="FeiWa代运营"></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

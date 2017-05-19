@@ -343,6 +343,8 @@ $(function(){
             <a href="<?php echo urlMall('store_list', 'index');?>" <?php if($output['index_sign'] == 'store_list' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>店铺</a>
                         <?php if (C('reads_isuse')){ ?>
             <a href="<?php echo READS_SITE_URL;?>" <?php if($output['index_signs'] == 'reads' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>资讯</a><?php } ?>
+            
+      
             	<?php if (C('circle_isuse')){ ?>
             <a href="<?php echo CIRCLE_SITE_URL;?>" <?php if($output['index_sign'] == 'circle' && $output['index_sign'] != '0') {echo 'class="now"';} ?>>友圈</a><?php } ?>
             <?php if (C('shareshow_isuse')){ ?>
@@ -381,7 +383,9 @@ $(function(){
       <?php }?>
       <?php }?>
       <?php }?>
+<a href="<?php echo urlMall('seller_login','show_login');?>" rel="nofollow">加盟我们</a>
        </div>
+
   </div>
 </nav>
 

@@ -335,6 +335,7 @@ $(function(){
       <?php }?>
       <?php }?>
       <?php }?>
+      <a href="<?php echo urlMall('seller_login','show_login');?>" rel="nofollow">加盟我们</a>
        </div>
   </div>
 </nav>
